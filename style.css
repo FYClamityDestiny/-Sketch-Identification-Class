@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(20, 129, 184);
+}
+h1{
+color:chartreuse
+}
+#sketchbutton{
+float:right;
+}
+canvas{
+border-radius: 20px;
+border:1px solid white;
+animation-name: animation;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+margin-top: 52px;
+}
+@keyframes animation{
+from{box-shadow:2px 2px 38px grey;}
+to{box-shadow: 1px 1px 38px white;}
+}
+p{
+font-size:14px;
+padding: 8px;
+
+}
